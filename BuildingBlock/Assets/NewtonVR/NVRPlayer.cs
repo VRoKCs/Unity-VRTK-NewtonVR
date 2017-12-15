@@ -222,7 +222,7 @@ namespace NewtonVR
             {
                 if (logOutput == true)
                 {
-                    Debug.LogError("[NewtonVR] Critical Error: Oculus / SteamVR not setup properly or no headset found.");
+                    Debug.LogWarning("[NewtonVR] Critical Error: Oculus / SteamVR not setup properly or no headset found.");
                 }
                 return;
             }
